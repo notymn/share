@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Server</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Yamen's File Server</h1>
+    <div id="loginSection">
+      <h2>Download "Project Detailing's Plan"</h2>
+      <form id="loginForm">
+        <label for="loginUsername">Download Token ID</label>
+        <input type="text" id="loginUsername" required>
+        <label for="loginPassword">Download Token Password</label>
+        <input type="password" id="loginPassword" required>
+        <button type="submit">Login</button>
+        <p id="message"></p>
+      </form>
+    </div>
+    <div id="signupSection">
+
+    </div>
+    <div id="loggedInSection">
+      <h2>Welcome, <span id="loggedInUsername"></span>!</h2>
+      <p id="page">This is a private page accessible only to logged-in users.</p>
+      <a href="/Project Detail/"><button>Download</button></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
